@@ -1,0 +1,48 @@
+/* leave some spaace for body */
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(56, 124, 249);
+}
+button {
+    background-color:  rgb(56, 124, 249);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+nav {
+    height: 70px;
+}
+
+nav > button {
+    width: 200px;
+}
+
+header {
+    background-image: url('./images/tech1.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    width:100vw;
+    background-size: cover;
+
+}
+
+.tech-image {
+    height: 400px;
+    width: 400px;
+
+}
+.tech-image > img {
+    height: 100%;
+    width: 100%;
+
+}
+
+footer {
+    display: block;
+    text-align: center;
+  }
